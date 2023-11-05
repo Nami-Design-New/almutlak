@@ -6455,3 +6455,16 @@ Custom Animation Area CSS
   right: auto !important;
   left: 0 !important;
 }
+
+
+.owl-carousel .owl-stage-outer{
+  direction: ltr;
+}
+
+.flaticon-right-arrow,
+.fa-arrow-right,
+.uni-banner-text-area ul li::after ,
+.fa-chevron-left ,
+.fa-chevron-right{
+  transform: scaleX(-1);
+}
